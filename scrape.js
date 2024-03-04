@@ -3,7 +3,8 @@ const puppeteer = require('puppeteer');
 const scrapProduct = async (urls) => {
     const browser = await puppeteer.launch(
         {
-            headless: 'true',
+            headless: true,
+            args: ['--no-sandbox', '--disable-setuid-sandbox'],
         }
     );
 
