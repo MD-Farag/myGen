@@ -281,7 +281,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                                         <p
                                                             style="margin:0;font-size:14px;text-align:center;mso-line-height-alt:32px">
                                                             <span style="font-size:16px">
-                                                                <a href="https://www.xcite.com/brand-stores?utm_source=email&amp;utm_medium=email&amp;utm_campaign=kw-crm-nl-nocampaign&amp;utm_content=manual"
+                                                                <a href="https://www.xcite.com/brand-stores"
                                                                     target="_blank"
                                                                     style="text-decoration:none;color:#00355f"
                                                                     rel="noopener">
@@ -1034,7 +1034,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                                         <p
                                                             style="margin:0;font-size:14px;text-align:center;mso-line-height-alt:32px">
                                                             <span style="font-size:16px">
-                                                                <a href="https://www.xcite.com/brand-stores?utm_source=email&amp;utm_medium=email&amp;utm_campaign=kw-crm-nl-nocampaign&amp;utm_content=manual"
+                                                                <a href="https://www.xcite.com/brand-stores"
                                                                     target="_blank"
                                                                     style="text-decoration:none;color:#00355f"
                                                                     rel="noopener">
@@ -1168,7 +1168,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                             <td class="pad" style="text-align:center">
                                                 <h3
                                                     style="margin:0;color:#00355f;direction:ltr;font-family:Calibri,sans-serif;font-size:16px;font-weight:400;letter-spacing:normal;line-height:200%;text-align:right;margin-top:0;margin-bottom:0;mso-line-height-alt:32px">
-                                                    <a href="https://www.xcite.com/ar-KW/help-and-services?utm_source=email&amp;utm_medium=email&amp;utm_content=ar-help-footer"
+                                                    <a href="https://www.xcite.com/ar-KW/help-and-services"
                                                         target="_blank" style="text-decoration:none;color:#00355f"
                                                         rel="noopener">مساعدة</a>
                                                 </h3>
@@ -1183,7 +1183,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                             <td class="pad" style="text-align:center">
                                                 <h3
                                                     style="margin:0;color:#00355f;direction:ltr;font-family:Calibri,sans-serif;font-size:16px;font-weight:400;letter-spacing:normal;line-height:200%;text-align:right;margin-top:0;margin-bottom:0;mso-line-height-alt:32px">
-                                                    <a href="https://www.xcite.com/ar-kw/faq?utm_source=email&amp;utm_medium=email&amp;utm_content=ar-faq-footer"
+                                                    <a href="https://www.xcite.com/ar-kw/faq"
                                                         target="_blank" style="text-decoration:none;color:#00355f"
                                                         rel="noopener">الأسئلة الشائعة</a>
                                                 </h3>
@@ -1199,7 +1199,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                                 <h3
                                                     style="margin:0;color:#00355f;direction:ltr;font-family:Calibri,sans-serif;font-size:16px;font-weight:400;letter-spacing:normal;line-height:200%;text-align:right;margin-top:0;margin-bottom:0;mso-line-height-alt:32px">
                                                     <span class="tinyMce-placeholder">
-                                                        <a href="https://www.xcite.com/ar-KW/stores?utm_source=email&amp;utm_medium=email&amp;utm_content=ar-stores-footer"
+                                                        <a href="https://www.xcite.com/ar-KW/stores"
                                                             target="_blank" style="text-decoration:none;color:#00355f"
                                                             rel="noopener">معارضنا</a>
                                                     </span>
@@ -1353,7 +1353,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                                                 من المعلومات حول كيفية حماية اكسايت لخصوصيتك والخطوات
                                                                 التي يمكنك اتخاذها لحماية معلوماتك الشخصية والتنبيهات
                                                                 حول مخاطر الخصوصية التي تواجه المستخدمين ، يرجى زيارة <a
-                                                                    href="https://www.xcite.com/ar-KW/privacy-policy?utm_source=email&amp;utm_medium=email&amp;utm_content=ar-privacy-footer"
+                                                                    href="https://www.xcite.com/ar-KW/privacy-policy"
                                                                     target="_blank" rel="noopener"
                                                                     style="text-decoration:underline;color:#414141">سياسة
                                                                     الخصوصية</a> الخاصة بـ
@@ -1369,7 +1369,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                                             <span
                                                                 style="font-size:12px;display: block;margin-bottom: 15px;">*تعرف
                                                                 أكثر على<a
-                                                                    href="https://www.xcite.com/ar-KW/express-delivery?utm_source=email&amp;utm_medium=email&amp;utm_campaign=kw-crm-nl-nocampaign&amp;utm_content=ar-express-delivery-footer"
+                                                                    href="https://www.xcite.com/ar-KW/express-delivery"
                                                                     target="_blank"
                                                                     style="text-decoration:underline;color:#414141"
                                                                     rel="noopener"> خدمة التوصيل
@@ -1380,7 +1380,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                                                 style="font-size:12px;display: block;margin-bottom: 15px;">الأسعار
                                                                 والعروض المذكورة بهذه
                                                                 النشرة الإلكترونية صالحة للتواريخ المذكورة فقط. راجع قسم
-                                                                <a href="https://www.xcite.com/ar-KW/faq?utm_source=email&amp;utm_medium=email&amp;utm_content=ar-faq-footer"
+                                                                <a href="https://www.xcite.com/ar-KW/faq"
                                                                     target="_blank" rel="noopener"
                                                                     style="text-decoration:underline;color:#414141">الأسئلة
                                                                     الشائعة</a> للحصول على مزيد من
@@ -1427,7 +1427,7 @@ function returnFooter(ftIndex, topBrandsLogos, topBrandsUrls) {
                                                                     title="Xsupport@xcite.com" rel="noopener"
                                                                     style="text-decoration:underline;color:#414141">Xsupport@xcite.com</a>.
                                                                 لمزيد من المعلومات ، اقرأ <a
-                                                                    href="https://www.xcite.com/ar-KW/terms-and-conditions?utm_source=email&amp;utm_medium=email&amp;utm_content=ar-tc-footer"
+                                                                    href="https://www.xcite.com/ar-KW/terms-and-conditions"
                                                                     target="_blank"
                                                                     style="text-decoration:underline;color:#414141"
                                                                     rel="noopener">الشروط والأحكام</a>

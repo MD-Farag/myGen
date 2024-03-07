@@ -6,6 +6,7 @@ const isValidUrl = (url) => {
         return false;
     }
 }
+
 // create a function to send POST request with list of urls to  API endpoint
 const fetchProducts = async (list) => {
     loader.style.display = "block";
@@ -43,8 +44,6 @@ const fetchProducts = async (list) => {
                 console.log("here is full product: ", pd)
             })
             console.log("i'm products array: ", productsArray)
-            // end loading state
-            loader.style.display = "none";
 
             fillTemplateWithProducts()
             // console.log('products are: ', products)
@@ -110,9 +109,28 @@ function fillTemplateWithProducts() {
         console.log(productsArray)
         result.style.cssText = `font - size: 15px; color: darkgrey; padding - top: 20px`;
         jQuery("#finalTemp").show()
-        tempGen.disabled = true;
-        tempGen.style.color = " #b1aeae";
-        tempGen.innerText = "Generate Template";
-        tempGen.style.color = "#a4a4a4";
+
+        // end loading state
+        loader.style.display = "none";
+
+        // scroll to copy template and show it
+        document.getElementById("finalTemp").scrollIntoView({ behavior: 'smooth' });
+
+        // setTimeout(() => {
+        //     copyToClip.style.color = (copyToClip.style.color == 'black' ? 'white' : 'black');
+        //     copyToClip.style.color = (copyToClip.style.backgroundColor == 'white' ? 'black' : 'white');
+        // }, 100);
+
+
+        // function blinker() {
+        //     if (copyToClip) {
+        //         setTimeout('blinker()', 100);
+        //     }
+        // }
+
+        // tempGen.disabled = true;
+        // tempGen.style.color = " #b1aeae";
+        // tempGen.innerText = "Generate Template";
+        // tempGen.style.color = "#a4a4a4";
     }
 }

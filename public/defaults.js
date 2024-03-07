@@ -19,7 +19,7 @@ function fillDefaults() {
         tempBnrTitle = document.querySelector("#tempBnrTitle").value = "Top Picks";
 
         // Header Texts EN
-        document.querySelector("#FirstLinkText").value = "mobile";
+        document.querySelector("#FirstLinkText").value = "Mobile";
         document.querySelector("#SecondLinkText").value = "Laptops";
         document.querySelector("#ThirdLinkText").value = "Appliances";
         document.querySelector("#FourthLinkText").value = "iTunes";
@@ -39,6 +39,10 @@ function fillDefaults() {
         document.querySelector("#SixthBrandUrl").value = "https://www.xcite.com/philips";
         document.querySelector("#SeventhBrandUrl").value = "https://www.xcite.com/microsoft";
         document.querySelector("#EighthBrandUrl").value = "https://www.xcite.com/wansa";
+
+        // main strip default value
+        document.querySelector("#tempStripImg").value = "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/f7683d20-2948-460f-8f91-a13fe519b593/NMH2090YH815IN23UY5RN0DH/EmailButtons-ViewAllDeals-EN-JPG_1.jpg";
+        document.querySelector("#tempStripLink").value = "https://www.xcite.com/";
 
     }
 
@@ -68,6 +72,11 @@ function fillDefaults() {
         document.querySelector("#SixthBrandUrl").value = "https://www.xcite.com/ar-KW/philips";
         document.querySelector("#SeventhBrandUrl").value = "https://www.xcite.com/ar-KW/microsoft";
         document.querySelector("#EighthBrandUrl").value = "https://www.xcite.com/ar-KW/wansa";
+
+        // main strip default value
+        document.querySelector("#tempStripImg").value = "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/f7683d20-2948-460f-8f91-a13fe519b593/NMH2090YH815IN23UY5RN0DH/EmailButtons-ViewAllDeals-AR%3DJPG_1.jpg";
+        document.querySelector("#tempStripLink").value = "https://www.xcite.com/ar-KW";
+
     }
 }
 
@@ -76,15 +85,23 @@ function resetFields() {
     tempGen.style.color = "#fff";
 
     document.querySelectorAll(".req-field input").forEach(function (input) {
-        if (input.id !== "tempLang") {
+        if (input.id !== "tempLang" && input.id !== "tempType") {
             input.style.setProperty("border", "1px solid #ddd");
             input.value = ""
         }
 
     });
 
+    // reset all data arrays to start fresh with defaults
+    headerLinksTexts = [];
+    headerLinksUrls = [];
+    bannerStripArray = [];
     URLsArray = [];
     productsArray = [];
+    supplierImgs = [];
+    supplierLinks = [];
+    topBrandsLogos = [];
+    topBrandsUrls = [];
 
     // Empty cliboard
     navigator.clipboard.writeText("");

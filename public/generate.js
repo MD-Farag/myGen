@@ -6,6 +6,8 @@ templateForm.addEventListener("submit", function (e) {
     // collecting template language
     tempLang = document.querySelector("#tempLang").value;
 
+    console.log("template language is",tempLang )
+
     // collecting header links data
     firstLinkText = document.querySelector("#FirstLinkText").value;
     firstLinkUrl = document.querySelector("#FirstLinkUrl").value;
@@ -20,11 +22,16 @@ templateForm.addEventListener("submit", function (e) {
     headerLinksTexts.push(secondLinkText);
     headerLinksTexts.push(thirdLinkText);
     headerLinksTexts.push(fourthLinkText);
+
+    console.log("header texts are: ", headerLinksTexts)
+
     // Adding header links to links array
     headerLinksUrls.push(firstLinkUrl);
     headerLinksUrls.push(secondLinkUrl);
     headerLinksUrls.push(thirdLinkUrl);
     headerLinksUrls.push(fourthLinkUrl);
+
+    console.log("header links are: ", headerLinksUrls)
 
     // collecting main banner title, image and link
     tempBnrTitle = document.querySelector("#tempBnrTitle").value;

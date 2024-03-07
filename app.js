@@ -55,7 +55,7 @@ app.post('/products', async (req, res) => {
     }
     catch (error) {
         console.error('Error:', error);
-        res.status(500).send(" ana error " + error);
+        res.status(500).json(error);
     }
 });
 

@@ -299,7 +299,7 @@ function returnHeader(headerIndex, headerLinksUrls, headerLinksTexts) {
                                                     style="padding-right:10px;padding-top:20px;padding-left:0">
                                                     <div class="alignment" align="right" style="line-height:10px">
                                                         <div style="max-width:133.167px">
-                                                            <a href="https://www.xcite.com/ar-KW?utm_source=email&amp;utm_medium=email&amp;utm_campaign=kw-crm-nl-nocampaign&amp;utm_content=ar-logo-header"
+                                                            <a href="https://www.xcite.com/ar-KW"
                                                                 target="_blank" style="outline:0" tabindex="-1">
                                                                 <img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/f7683d20-2948-460f-8f91-a13fe519b593/NMH2090YH815IN23UY5RN0DH/MicrosoftTeams-image%20%283%29.png"
                                                                     style="display:block;height:auto;border:0;width:100%"
@@ -340,7 +340,7 @@ function returnHeader(headerIndex, headerLinksUrls, headerLinksTexts) {
                                                 style="padding-bottom:10px;padding-top:10px;text-align:center">
                                                 <div class="alignment" align="center">
                                                     <!--[if mso]>
-    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.xcite.com/ar-KW/home-entertainment-department?utm_source=email&utm_medium=email&utm_campaign=kw-crm-nl-ar-5kddiscount-2023-10-07&utm_content=manual" style="height:16px;width:53px;v-text-anchor:middle;" arcsize="25%" stroke="false" fill="false">
+    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.xcite.com/ar-KW/home-entertainment-department" style="height:16px;width:53px;v-text-anchor:middle;" arcsize="25%" stroke="false" fill="false">
     <w:anchorlock/>
     <v:textbox inset="0px,0px,0px,0px">
     <center style="color:#00355f; font-family:sans-serif; font-size:14px">
@@ -371,7 +371,7 @@ function returnHeader(headerIndex, headerLinksUrls, headerLinksTexts) {
                                                 style="padding-bottom:10px;padding-top:10px;text-align:center">
                                                 <div class="alignment" align="center">
                                                     <!--[if mso]>
-    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.xcite.com/ar-KW/large-appliances-department?utm_source=email&utm_medium=email&utm_campaign=kw-crm-nl-nocampaign&utm_content=ar-appliances-header" style="height:16px;width:59px;v-text-anchor:middle;" arcsize="25%" stroke="false" fill="false">
+    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.xcite.com/ar-KW/large-appliances-department" style="height:16px;width:59px;v-text-anchor:middle;" arcsize="25%" stroke="false" fill="false">
     <w:anchorlock/>
     <v:textbox inset="0px,0px,0px,0px">
     <center style="color:#00355f; font-family:sans-serif; font-size:14px">
@@ -400,7 +400,7 @@ function returnHeader(headerIndex, headerLinksUrls, headerLinksTexts) {
                                             <td class="pad"
                                                 style="padding-bottom:10px;padding-top:10px;text-align:center">
                                                 <div class="alignment" align="center">
-                                                    <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.xcite.com/ar-KW/computers-tablets-department?utm_source=email&utm_medium=email&utm_campaign=kw-crm-nl-nocampaign&utm_content=ar-laptops-header" style="height:16px;width:46px;v-text-anchor:middle;" arcsize="25%" stroke="false" fill="false">
+                                                    <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.xcite.com/ar-KW/computers-tablets-department" style="height:16px;width:46px;v-text-anchor:middle;" arcsize="25%" stroke="false" fill="false">
     <w:anchorlock/>
     <v:textbox inset="0px,0px,0px,0px">
     <center style="color:#00355f; font-family:sans-serif; font-size:14px">
@@ -431,7 +431,7 @@ function returnHeader(headerIndex, headerLinksUrls, headerLinksTexts) {
                                                 style="padding-bottom:10px;padding-top:10px;text-align:center">
                                                 <div class="alignment" align="center">
                                                     <!--[if mso]>
-    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.xcite.com/ar-KW/mobile-phones-department?utm_source=email&utm_medium=email&utm_campaign=kw-crm-nl-nocampaign&utm_content=ar-mobiles-header" style="height:16px;width:48px;v-text-anchor:middle;" arcsize="25%" stroke="false" fill="false">
+    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.xcite.com/ar-KW/mobile-phones-department" style="height:16px;width:48px;v-text-anchor:middle;" arcsize="25%" stroke="false" fill="false">
     <w:anchorlock/>
     <v:textbox inset="0px,0px,0px,0px">
     <center style="color:#00355f; font-family:sans-serif; font-size:14px">

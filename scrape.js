@@ -55,7 +55,8 @@ const scrapProduct = async (urls) => {
                 if (document.querySelector('.flex.items-baseline.flex-wrap.gap-3 .text-3xl.text-functional-red-800')) {
                     return document.querySelector('.flex.items-baseline.flex-wrap.gap-3 .text-3xl.text-functional-red-800').innerText;
                 } else {
-                    return '';
+                    //// here if there is no discount we return the default price
+                    return document.querySelector("#__next > main > div.flex.mx-auto.mb-11.md\\:mb-15.flex-col.sm\\:flex-row.xl\\:container > div.flex-1.pt-10.px-5.sm\\:grid.sm\\:grid-cols-6.sm\\:gap-x-5.sm\\:pl-10.sm\\:pt-20.lg\\:pl-20 > div > h3").innerText;
                 }
             });
 
