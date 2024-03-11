@@ -67,8 +67,6 @@ jQuery("#Template li").click(function () {
             jQuery("#TempForm1").find('input').prop('required', true);
             jQuery("#headerLinks").show();
             jQuery("#headerLinks").find('input').prop('required', true);
-            jQuery("#topBrands").show();
-            jQuery("#topBrands").find('input').prop('required', true);
             jQuery("#Submit").show();
             break;
         case "Temp-2":
@@ -87,8 +85,6 @@ jQuery("#Template li").click(function () {
             jQuery("#bannersPart2").find('input').prop('required', false);
             jQuery("#headerLinks").hide();
             jQuery("#headerLinks").find('input').prop('required', false);
-            jQuery("#topBrands").hide();
-            jQuery("#topBrands").find('input').prop('required', false);
             // hide generate template button
             jQuery("#Submit").hide();
             // reset selected version of BnrBrdctPart
@@ -115,8 +111,6 @@ jQuery("#BnrBrdctPart li").click(function () {
     jQuery("#TempForm2").find('input').prop('required', true);
     jQuery("#headerLinks").show();
     jQuery("#headerLinks").find('input').prop('required', true);
-    jQuery("#topBrands").show();
-    jQuery("#topBrands").find('input').prop('required', true);
     jQuery("#Submit").show();
 
     // select which version of last part to show

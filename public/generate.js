@@ -136,45 +136,6 @@ templateForm.addEventListener("submit", function (e) {
             }
             break;
     }
-
-    // collecting top brands data
-    firstBrandLogo = document.querySelector("#FirstBrandLogo").value;
-    firstBrandUrl = document.querySelector("#FirstBrandUrl").value;
-    secondBrandLogo = document.querySelector("#SecondBrandLogo").value;
-    secondBrandUrl = document.querySelector("#SecondBrandUrl").value;
-    thirdBrandLogo = document.querySelector("#ThirdBrandLogo").value;
-    thirdBrandUrl = document.querySelector("#ThirdBrandUrl").value;
-    fourthBrandLogo = document.querySelector("#FourthBrandLogo").value;
-    fourthBrandUrl = document.querySelector("#FourthBrandUrl").value;
-    fifthBrandLogo = document.querySelector("#FifthBrandLogo").value;
-    fifthBrandUrl = document.querySelector("#FifthBrandUrl").value;
-    sixthBrandLogo = document.querySelector("#SixthBrandLogo").value;
-    sixthBrandUrl = document.querySelector("#SixthBrandUrl").value;
-    seventhBrandLogo = document.querySelector("#SeventhBrandLogo").value;
-    seventhBrandUrl = document.querySelector("#SeventhBrandUrl").value;
-    eighthBrandLogo = document.querySelector("#EighthBrandLogo").value;
-    eighthBrandUrl = document.querySelector("#EighthBrandUrl").value;
-
-    // Adding top brands logos to logos array
-    topBrandsLogos.push(firstBrandLogo);
-    topBrandsLogos.push(secondBrandLogo);
-    topBrandsLogos.push(thirdBrandLogo);
-    topBrandsLogos.push(fourthBrandLogo);
-    topBrandsLogos.push(fifthBrandLogo);
-    topBrandsLogos.push(sixthBrandLogo);
-    topBrandsLogos.push(seventhBrandLogo);
-    topBrandsLogos.push(eighthBrandLogo);
-
-    // Adding top brands URLs to URLs array
-    topBrandsUrls.push(firstBrandUrl);
-    topBrandsUrls.push(secondBrandUrl);
-    topBrandsUrls.push(thirdBrandUrl);
-    topBrandsUrls.push(fourthBrandUrl);
-    topBrandsUrls.push(fifthBrandUrl);
-    topBrandsUrls.push(sixthBrandUrl);
-    topBrandsUrls.push(seventhBrandUrl);
-    topBrandsUrls.push(eighthBrandUrl);
-
     prepareUrls(URLsArray)
     console.log("here is urls array: ", URLsArray)
 })

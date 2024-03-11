@@ -103,7 +103,7 @@ function fillTemplateWithProducts() {
     if (productsArray.length > 0) {
         Body.innerHTML = returnHeader(headerIndex, headerLinksUrls, headerLinksTexts) +
             returnProducts(selectedTemplate, productsArray, tempLang, selectedBnrBrdctPart) +
-            returnFooter(footerIndex, topBrandsLogos, topBrandsUrls);
+            returnFooter(footerIndex);
         Html.innerHTML = docTypeStart + Body.outerHTML;
         result.value = "<!DOCTYPE html>" + Html.outerHTML.trim();
         console.log(productsArray)
@@ -116,21 +116,6 @@ function fillTemplateWithProducts() {
         // scroll to copy template and show it
         document.getElementById("finalTemp").scrollIntoView({ behavior: 'smooth' });
 
-        // setTimeout(() => {
-        //     copyToClip.style.color = (copyToClip.style.color == 'black' ? 'white' : 'black');
-        //     copyToClip.style.color = (copyToClip.style.backgroundColor == 'white' ? 'black' : 'white');
-        // }, 100);
-
-
-        // function blinker() {
-        //     if (copyToClip) {
-        //         setTimeout('blinker()', 100);
-        //     }
-        // }
-
-        // tempGen.disabled = true;
-        // tempGen.style.color = " #b1aeae";
-        // tempGen.innerText = "Generate Template";
-        // tempGen.style.color = "#a4a4a4";
+        copyToClip.classList.add("blinking");
     }
 }
