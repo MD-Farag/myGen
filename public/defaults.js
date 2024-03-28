@@ -51,6 +51,8 @@ function fillDefaults() {
 }
 
 function resetFields() {
+    tempGen.disabled = false;
+    tempGen.style.color = "#fff";
 
     document.querySelectorAll(".req-field input").forEach(function (input) {
         if (input.id !== "tempLang" && input.id !== "tempType") {
@@ -85,9 +87,7 @@ function resetFields() {
 function resetTemplate() {
     // reset template field
     document.querySelector(".req-field input#tempType").style.setProperty("border", "1px solid #ddd");
-    document.querySelector(".req-field input#tempType").value = "";
-    // hide template options 
-    jQuery("#Template").hide();
+    document.querySelector(".req-field input#tempType").value = ""
 
     // reset all fields except language 
     resetFields()
@@ -100,6 +100,9 @@ function resetAll() {
 
     // reset Template selection
     resetTemplate()
+
+    // hide template options 
+    jQuery("#Template").hide();
 
 }
 
@@ -117,28 +120,4 @@ function hideAllSections() {
     if (jQuery("#BnrBrdctPart").css("display") === "block") {
         jQuery("#BnrBrdctPart").hide();
     }
-}
-
-function regenerate() {
-
-    // reset all data arrays to start fresh with defaults
-    headerLinksTexts = [];
-    headerLinksUrls = [];
-    bannerStripArray = [];
-    URLsArray = [];
-    productsArray = [];
-    supplierImgs = [];
-    supplierLinks = [];
-
-    // Empty cliboard
-    navigator.clipboard.writeText("");
-
-    // empty final template container
-    if (result) {
-        result.value = "";
-    }
-
-    jQuery("#finalTemp").hide();
-    jQuery("#Submit").show();
-
 }

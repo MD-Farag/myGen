@@ -2,10 +2,6 @@ resetBtn.addEventListener("click", function () {
     resetAll()
 });
 
-updateBtn.addEventListener("click", function () {
-    regenerate()
-});
-
 copyToClip.addEventListener("click", function (e) {
     navigator.clipboard.writeText(document.querySelector("#output").value);
     copyMsg = document.getElementById("copyMessage");
